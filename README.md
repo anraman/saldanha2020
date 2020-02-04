@@ -46,6 +46,6 @@ into the terminal and go to the link it provides you with (if it doesn’t autom
 
 Navigate to `The Qubit` from the `List of Tutorials` menu. To test everything has installed correctly, run the first two code blocks using `Shift-Enter`. You should see something like this:
 
-![Qubit kata output](./qubit-kata.png)
+![Qubit kata output](./qubit-kata.PNG)
 
 >Stop there! I'll be giving an introduction to  Q# and the QDK on Thursday  and you'll get the chance to work through these exercises in the workshop later that afternoon. No spoilers!
