@@ -4,7 +4,7 @@ Download the .NET Core SDK from [here](https://dotnet.microsoft.com/download/dot
 
 ![.NET Core install table](./dotnet.png)
 
->If you are using Linux, follow the 'Package manager instructions' link and select the right distribution from the dropdown menu at the top left of the page. Then follow the instructions under the subheadings `Register Microsoft key and feed` and `Install the .NET Core SDK`.
+>If you are using Linux, follow the _Package manager instructions_ link and select the right distribution from the dropdown menu at the top left of the page. Then follow the instructions under the subheadings _Register Microsoft key and feed_ and _Install the .NET Core SDK_.
 
 Make sure you have Python 3.6 or above installed. You can check your installed version by typing: `python3 --version` into your terminal.
 
@@ -46,7 +46,7 @@ jupyter notebook
 ```
 into the terminal and go to the link it provides you with (if it doesn’t automatically open a browser window for you). Open up `index.ipynb` in the home folder.
 
-Navigate to `The Qubit` from the `List of Tutorials` menu. To test everything has installed correctly, run the first two code blocks using `Shift-Enter`. You should see something like this:
+Navigate to _The Qubit_ from the _List of Tutorials_ menu. To test everything has installed correctly, run the first two code blocks using `Shift-Enter`. You should see something like this:
 
 ![Qubit kata output](./qubit-kata.PNG)
 
