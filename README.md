@@ -19,6 +19,13 @@ dotnet tool install -g Microsoft.Quantum.IQSharp
 dotnet iqsharp install
 ```
 
+If you see an error running `dotnet iqsharp install` saying something about not being able to find the executable or command, follow the steps below:
+
+- Try restarting your terminal window.
+- Check that dotnet has been added to your PATH by typing `dotnet --version`. If nothing is returned, you need to add dotnet to your PATH explicitly by adding `export PATH="$PATH:$HOME/.dotnet"` to your `~/.profile` (or `~/.bashrc` or equivalent).
+- Check that iqsharp has been added to your PATH by typing `dotnet-iqsharp --version`. If nothing is returned, add `export PATH="$PATH:$HOME/.dotnet/tools"` to your PATH as decribed in the previous step. 
+- Further troubleshooting tips can be found on [this](https://github.com/microsoft/iqsharp/issues/14) thread.
+
 If you aren't using Anaconda, run the following two commands:
 ```
 pip install pytest
