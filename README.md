@@ -4,6 +4,8 @@ Download the .NET Core SDK from [here](https://dotnet.microsoft.com/download/dot
 
 ![.NET Core install table](./dotnet.png)
 
+>If you are using Linux, follow the 'Package manager instructions' link and select the right distribution from the dropdown menu at the top left of the page. Then follow the instructions under the subheadings `Register Microsoft key and feed` and `Install the .NET Core SDK`.
+
 Make sure you have Python 3.6 or above installed. You can check your installed version by typing: `python3 --version` into your terminal.
 
 Make sure you have Jupyter installed. If you don’t, instructions can be found [here](https://jupyter.readthedocs.io/en/latest/install.html).
