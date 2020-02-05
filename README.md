@@ -15,7 +15,15 @@ Make sure you have Jupyter installed. If you don’t, instructions can be found 
 Run the following commands:
 ```
 pip install qsharp
-dotnet tool install -g Microsoft.Quantum.IQSharp
+dotnet tool install microsoft.quantum.iqsharp -g --version 0.10.1911.1607
+dotnet iqsharp install
+```
+
+**If you previously ran this before I added the IQSharp version number, please do the following (sorry for the confusion):**
+
+```bash
+dotnet tool uninstall microsoft.quantum.iqsharp -g
+dotnet tool install microsoft.quantum.iqsharp -g --version 0.10.1911.1607
 dotnet iqsharp install
 ```
 
