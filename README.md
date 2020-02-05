@@ -8,7 +8,7 @@ Make sure you have Python 3.6 or above installed. You can check your installed v
 
 Make sure you have Jupyter installed. If you don’t, instructions can be found [here](https://jupyter.readthedocs.io/en/latest/install.html).
 
->I would recommend using the Anaconda method (or [miniconda](https://docs.conda.io/en/latest/miniconda.html) for a more lightweight version) as suggested in the Jupyter instructions. If you do, create a new environment using `conda create --name myenv` and then activate it using `conda activate myenv` (replace `myenv` with your choice of environment name).
+>I would recommend using the Anaconda method (or [miniconda](https://docs.conda.io/en/latest/miniconda.html) for a more lightweight version) as suggested in the Jupyter instructions. Don't forget to add to your local PATH during install! If you do, create a new environment using `conda create --name myenv` and then activate it using `conda activate myenv` (replace `myenv` with your choice of environment name).
 
 Run the following commands:
 ```
